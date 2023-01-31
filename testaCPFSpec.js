@@ -1,5 +1,5 @@
 
-describe("Testando cpf", function(){describe('TestaCPF', () => {
+describe('TestaCPF', () => {
   it('Deve retornar true para um CPF válido', () => {
     expect(TestaCPF('66278235005')).toBe(true);
   });
